@@ -75,7 +75,7 @@ const result = await convertToMp4({
 
 ## Notes
 
-- **No transparency** — H.264 MP4 does not support alpha. For transparent video use [@kodeking/lottie-to-webm](https://github.com/kodeking/lottie-to-webm) (VP9 with alpha).
+- **No transparency** — H.264 MP4 does not support alpha. For transparent video use [@kodeking/lottie-to-webm](https://github.com/Koding-net/lottie-to-webm) (VP9 with alpha).
 - Output is `yuv420p` for maximum compatibility (QuickTime, PowerPoint, social media).
 - `+faststart` flag moves the moov atom to the beginning for instant web playback.
 
@@ -83,6 +83,6 @@ const result = await convertToMp4({
 
 ## License
 
-MIT © [KodeKing](https://github.com/kodeking)
+MIT © [KodeKing](https://github.com/Koding-net)
 
-See all tools at [github.com/kodeking/lottie-tools](https://github.com/kodeking/lottie-tools).
+See all tools at [github.com/Koding-net/lottie-tools](https://github.com/Koding-net/lottie-tools).

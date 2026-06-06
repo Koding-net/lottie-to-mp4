@@ -8,9 +8,9 @@
   "keywords": ["lottie", "mp4", "video", "lottie-to-mp4", "animation", "converter", "cli", "puppeteer", "ffmpeg", "kodeking"],
   "author": "KodeKing <hello@kodeking.dev>",
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/kodeking/lottie-to-mp4.git" },
-  "homepage": "https://github.com/kodeking/lottie-to-mp4#readme",
-  "bugs": { "url": "https://github.com/kodeking/lottie-to-mp4/issues" },
+  "repository": { "type": "git", "url": "https://github.com/Koding-net/lottie-to-mp4.git" },
+  "homepage": "https://github.com/Koding-net/lottie-to-mp4#readme",
+  "bugs": { "url": "https://github.com/Koding-net/lottie-to-mp4/issues" },
   "engines": { "node": ">=18.0.0" },
   "dependencies": {
     "lottie-web": "^5.12.2",
