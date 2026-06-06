@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /**
- * @kodeking/lottie-to-mp4
+ * @koding-net/lottie-to-mp4
  *
  * Convert a Lottie JSON animation to MP4 (H.264).
  * Uses Puppeteer to render frames and ffmpeg for encoding.
  *
  * CLI:  npx lottie-to-mp4 input.json output.mp4 [--fps 24] [--width 480]
- * API:  const { convertToMp4 } = require('@kodeking/lottie-to-mp4')
+ * API:  const { convertToMp4 } = require('@koding-net/lottie-to-mp4')
  */
 
 'use strict';

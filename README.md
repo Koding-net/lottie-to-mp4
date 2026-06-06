@@ -1,9 +1,9 @@
-# @kodeking/lottie-to-mp4
+# @koding-net/lottie-to-mp4
 
 > Convert Lottie JSON animations to **MP4** (H.264) — Node.js CLI + programmatic API
 
-[![npm](https://img.shields.io/npm/v/@kodeking/lottie-to-mp4)](https://www.npmjs.com/package/@kodeking/lottie-to-mp4)
-[![license](https://img.shields.io/npm/l/@kodeking/lottie-to-mp4)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@koding-net/lottie-to-mp4)](https://www.npmjs.com/package/@koding-net/lottie-to-mp4)
+[![license](https://img.shields.io/npm/l/@koding-net/lottie-to-mp4)](LICENSE)
 
 Renders every frame with **Puppeteer + lottie-web**, then encodes to H.264 MP4 with **ffmpeg**. The output is `+faststart` web-optimised and ready for `<video>`, presentations, and social media. Try it live at [iconking.net/tools/lottie-to-mp4](https://iconking.net/tools/lottie-to-mp4).
 
@@ -23,9 +23,9 @@ Puppeteer (Chromium) is bundled — no separate browser install needed.
 ## Install
 
 ```bash
-npm install -g @kodeking/lottie-to-mp4
+npm install -g @koding-net/lottie-to-mp4
 # or without installing:
-npx @kodeking/lottie-to-mp4 input.json output.mp4
+npx @koding-net/lottie-to-mp4 input.json output.mp4
 ```
 
 ---
@@ -50,7 +50,7 @@ lottie-to-mp4 my-animation.json
 ## Programmatic API
 
 ```js
-const { convertToMp4 } = require('@kodeking/lottie-to-mp4');
+const { convertToMp4 } = require('@koding-net/lottie-to-mp4');
 
 const result = await convertToMp4({
   input:  'animation.json',
@@ -75,7 +75,7 @@ const result = await convertToMp4({
 
 ## Notes
 
-- **No transparency** — H.264 MP4 does not support alpha. For transparent video use [@kodeking/lottie-to-webm](https://github.com/Koding-net/lottie-to-webm) (VP9 with alpha).
+- **No transparency** — H.264 MP4 does not support alpha. For transparent video use [@koding-net/lottie-to-webm](https://github.com/Koding-net/lottie-to-webm) (VP9 with alpha).
 - Output is `yuv420p` for maximum compatibility (QuickTime, PowerPoint, social media).
 - `+faststart` flag moves the moov atom to the beginning for instant web playback.
 

@@ -1,11 +1,11 @@
 {
-  "name": "@kodeking/lottie-to-mp4",
+  "name": "@koding-net/lottie-to-mp4",
   "version": "1.0.0",
   "description": "Convert Lottie JSON animations to MP4 video (H.264) — Node.js CLI and programmatic API",
   "main": "src/index.js",
   "bin": { "lottie-to-mp4": "src/index.js" },
   "files": ["src"],
-  "keywords": ["lottie", "mp4", "video", "lottie-to-mp4", "animation", "converter", "cli", "puppeteer", "ffmpeg", "kodeking"],
+  "keywords": ["lottie", "mp4", "video", "lottie-to-mp4", "animation", "converter", "cli", "puppeteer", "ffmpeg", "koding-net"],
   "author": "KodeKing <hello@kodeking.dev>",
   "license": "MIT",
   "repository": { "type": "git", "url": "https://github.com/Koding-net/lottie-to-mp4.git" },
